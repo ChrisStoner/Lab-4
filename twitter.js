@@ -13,6 +13,10 @@ client.exists('awesome', function(error, exists) {
         console.log('ERROR: '+error);
     } else if(!exists) {
         client.set('awesome', 0); //create the awesome key
+        client.set('gnarly', 0); //create the awesome key
+        client.set('rad', 0); //create the awesome key
+        client.set('cool', 0); //create the awesome key
+        client.set('groovy', 0); //create the awesome key
     };
 });
 
